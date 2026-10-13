@@ -84,11 +84,8 @@ a{color:inherit}
 .work.hidden{display:none}
 
 /* HERO PREVIEW STRIP */
-.hero-preview{display:flex;gap:.7rem;justify-content:center;margin:1.8rem 0 .5rem;flex-wrap:wrap}
-.hero-preview img{width:120px;height:150px;object-fit:cover;border-radius:10px;box-shadow:0 6px 18px rgba(15,31,61,.18);transition:transform .25s}
-.hero-preview img:nth-child(odd){transform:rotate(-2deg)}
-.hero-preview img:nth-child(even){transform:rotate(2deg)}
-.hero-preview img:hover{transform:scale(1.06) rotate(0)}
+.hero-video{display:flex;justify-content:center;margin:1.8rem 0 .5rem}
+.hero-video video{width:min(560px,100%);border-radius:14px;box-shadow:0 10px 30px rgba(15,31,61,.25)}
 @media(max-width:720px){.hero-preview img{width:88px;height:110px}}
 
 /* CASE STUDIES */
