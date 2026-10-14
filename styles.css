@@ -212,4 +212,22 @@ footer{background:#0a1530;color:#8b96ad;padding:1.6rem 1.5rem;font-size:.9rem}
   .menu-btn{display:block}
   .cards{grid-template-columns:1fr}
   .section{padding:3.2rem 1.2rem}
+  /* Pricing tables -> stacked cards */
+  .table-wrap{overflow-x:visible;box-shadow:none;background:none;border-radius:0}
+  .price-table{min-width:0}
+  .price-table thead{display:none}
+  .price-table,.price-table tbody,.price-table tr,.price-table td{display:block;width:100%}
+  .price-table tbody tr{margin-bottom:1.1rem;border:1px solid var(--line);border-radius:14px;background:#fff;overflow:hidden;box-shadow:0 6px 18px rgba(15,31,61,.07)}
+  .price-table tbody tr:hover td{background:#fff}
+  .price-table tbody tr:last-child td:first-child,.price-table tbody tr:last-child td:last-child{border-radius:0}
+  .price-table tbody td{border-top:1px solid var(--line);padding:.7rem 1rem;display:flex;justify-content:space-between;align-items:center;gap:1rem;text-align:right;color:#3c4763}
+  .price-table tbody td:first-child{border-top:none}
+  .price-table tbody td::before{content:attr(data-label);font-weight:700;color:var(--navy);font-size:.72rem;text-transform:uppercase;letter-spacing:.04em;text-align:left;flex-shrink:0}
+  .price-table tbody td[data-label=""]::before{display:none}
+  .price-table tbody td.p-name{background:var(--navy);color:#fff;font-size:1.05rem;font-weight:700;white-space:normal;text-align:left;padding:.85rem 1rem;display:block}
+  .price-table tbody td.p-name::before{display:none}
+  .price-table tbody tr.popular{border:2px solid var(--gold)}
+  .price-table tbody tr.popular td.p-name{background:var(--navy)}
+  .price-table td.p-price{font-size:1.3rem;font-weight:800;color:var(--navy);background:#f7f9ff}
+  .price-table td.c{text-align:right;white-space:normal}
 }
