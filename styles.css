@@ -168,6 +168,10 @@ footer{background:#0a1530;color:#8b96ad;padding:1.6rem 1.5rem;font-size:.9rem}
   background:#25d366;display:flex;align-items:center;justify-content:center;font-size:1.7rem;text-decoration:none;
   box-shadow:0 8px 24px rgba(37,211,102,.45)}
 
+/* Inline SVG icons in buttons — real brand glyph, readable on any background */
+.btn svg{width:1.15em;height:1.15em;vertical-align:-.2em;margin-right:.4em;fill:currentColor}
+.wa-float svg{width:1.9rem;height:1.9rem;fill:#fff}
+
 
 
 .fmt-meta{text-align:center;color:#6b7690;font-size:.95rem;margin-top:1rem}
